@@ -1,0 +1,43 @@
+﻿#body{
+	margin: 0 auto;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	text-align: center;
+
+}
+
+#sidebar{
+	width: 20%;
+	height: calc(90vh - 1px);
+	background-color: yellow;
+	float: left;
+	text-align: center;
+
+	/*padding: 0;*/
+	/*margin: 0 auto;*/
+}
+
+#content{
+	width: 80%;
+	height: calc(90vh - 1px);
+	float: right;
+	background-color: blue;
+	text-align: center;
+
+	/*padding: 0;*/
+	/*margin: 0 auto;*/
+}
+
+body header p.text_center{
+	top: calc(50% - 12px);
+	position: relative;
+}
+
+body div p.text_center{
+	top: calc(50% - 12px);
+	position: relative;
+}
