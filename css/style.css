@@ -44,3 +44,8 @@ body div p.text_center{
 	margin: auto;
 	text-align: center;
 }
+
+.size_bike{
+	font-size: 50px;
+	position: relative;
+}
